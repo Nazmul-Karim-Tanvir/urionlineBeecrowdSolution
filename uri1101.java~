@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class uri1101{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int m = sc.nextInt();
+    int n = sc.nextInt();
+    int sum=0;
+    if(x<y){
+      for(int i=x; i<=y; i++){
+        sum+=i;
+        System.out.print(i);
+      }
+    }
+    else if(x>y){
+      for(int i=y; i<=x; i++){
+        sum+=i;
+        System.out.print(i);
+      }
+    }
+    System.out.print("sum="+sum);
+  }
+}

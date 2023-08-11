@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class uri1145{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    int y = sc.nextInt();
+    int a =1;
+    int b =2;
+    int c =3;
+    for(int i=1; i<100; i++){
+      System.out.println(a+" "+b+" "+c);
+      a+=3;
+      b+=3;
+      c+=3;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class problem2968{
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int v = sc.nextInt();
+    int n = sc.nextInt();
+    int x = v * n;
+    if(1<=v && n<=Math.pow(10,4)){
+      for(double i = 10; i <= 90; i+=10) {
+        double y=((x * i) / 100);
+        int m =((int)Math.ceil(y));
+        System.out.print(m+" ");
+      }
+    }
+  }
+}

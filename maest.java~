@@ -1,0 +1,9 @@
+public class Maest{
+  final int x = 0;
+  Maest(){
+    x=1;
+  }
+  final int aMethod(){
+    return x;
+  }
+}

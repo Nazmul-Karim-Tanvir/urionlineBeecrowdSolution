@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class uri1097{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a =1;
+    int b =a+a+a;
+    int c =b+b+b;
+    int J =a+6;
+    int k =b+6;
+    int z =c+6; 
+    for(int i=0; i<3; i++){
+       System.out.println("I="+a+" J="+J);
+      J--;
+    }
+    for(int i=0; i<3; i++){
+       System.out.println("I="+b+" J="+k);
+      k--;
+    }
+    System.out.println("...");
+    for(int i=0; i<3; i++){
+       System.out.println("I="+c+" J="+z);
+      z--;
+    }
+  }
+}

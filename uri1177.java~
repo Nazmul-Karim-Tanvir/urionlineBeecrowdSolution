@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class uri1177{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a[] = new int[1000];
+    int t = sc.nextInt();
+    
+    for(int k=0; k<1000; k++){
+      System.out.println("N["+i+"] = "+a[i]);
+    }
+  }
+}

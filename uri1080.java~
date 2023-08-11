@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class uri1080{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int number = sc.nextInt();
+    int max =number;
+    int count =1;
+    int count1 =1;
+    for(int i=1; i<100; i++){
+      int number1 = sc.nextInt();
+      if(number1>max){
+        max = number1;
+        count++;
+      }
+      else{
+      count1++;
+      }
+    }
+    System.out.println(max);
+    System.out.println(count+count1);
+  }
+}

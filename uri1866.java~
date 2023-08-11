@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class uri1866{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int count = 0;
+    float sum =0;
+    for(int i=0; i<6; i++){
+      double number = sc.nextDouble();
+      if(number>=0){
+        count++;
+        sum+=number;
+      }
+    }
+    float average = sum/count; 
+    System.out.println(count+" valores positivos");
+    System.out.printf("%.1f\n",average);
+  }
+}

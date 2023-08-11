@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class uri1048{
+  public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    float s = sc.nextFloat();
+    if(s>=0 && s<=400.00){
+      double a = (15*s)/100;
+      double b = (s+a);
+      System.out.printf("Novo salario: %.2f\n",b);
+      System.out.printf("Reajuste ganho: %.2f\n",a);
+      System.out.println("Em percentual: 15 %");
+    }
+    else if (s>=400.1 && s<=800.00){
+      double a = (12*s)/100;
+      double b = (s+a);
+      System.out.printf("Novo salario: %.2f\n",b);
+      System.out.printf("Reajuste ganho: %.2f\n",a);
+      System.out.println("Em percentual: 12 %");
+    }
+    else if (s>=800.1 && s<=1200.00){
+      double a = (10*s)/100;
+      double b = (s+a);
+      System.out.printf("Novo salario: %.2f\n",b);
+      System.out.printf("Reajuste ganho: %.2f\n",a);
+      System.out.println("Em percentual: 10 %");
+    }
+    else if (s>=1200.01 && s<=2000.00){
+      double a = (7*s)/100;
+      double b = (s+a);
+      System.out.printf("Novo salario: %.2f\n",b);
+      System.out.printf("Reajuste ganho: %.2f\n",a);
+      System.out.println("Em percentual: 7 %");
+    }
+    else if(s>2000.00){
+      double a = (4*s)/100;
+      double b = (s+a);
+      System.out.printf("Novo salario: %.2f\n",b);
+      System.out.printf("Reajuste ganho: %.2f\n",a);
+      System.out.println("Em percentual: 4 %");
+    }
+  }
+}

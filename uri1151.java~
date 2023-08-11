@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class uri1151{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int number = sc.nextInt();
+    int fibo =0;
+    for(int i=1; i<number; i++){
+      fibo+=i;
+      System.out.println(fibo);
+    }
+  }
+}

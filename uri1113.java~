@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class uri1113{
+int x =0;
+int y =0;
+//  public int moja(int x,int y){
+//    if(x==y){
+//      return 0;
+//    }
+//  }
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    uri1113 u1 = new uri1113();
+    u1.x=sc.nextInt();
+    u1.y =sc.nextInt();
+//    int a = moja(x, y);
+    System.out.println(u1.x);
+  }
+}

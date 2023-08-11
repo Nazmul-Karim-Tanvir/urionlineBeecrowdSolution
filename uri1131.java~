@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class uri1131{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int inter=0;
+    int gremio=0;
+    int draw=0;
+    int number1 =  sc.nextInt();
+    int number2 =  sc.nextInt();
+    if(number1 >number2){
+      inter++;
+    }
+    else if(number1<number2){
+      gremio++;
+    }
+    else if(number1==number2){
+      draw++;
+    }
+  }
+}

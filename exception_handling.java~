@@ -1,0 +1,12 @@
+import java.util.*;
+import java.io.*;
+public class exception_handling{
+  public static main(String [] args){
+    try{
+    throw 10;
+    }
+    catch(int e){
+      System.out.println("got the exception"+e);
+    }
+  }
+}

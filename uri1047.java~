@@ -1,0 +1,43 @@
+import java.io.IOException;
+ 
+import java.util.Scanner;
+public class uri1047{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int c = sc.nextInt();
+    int b = sc.nextInt();
+    int d = sc.nextInt();
+    int e;
+    if(c>d){
+      d=d+60;
+      e=d-c;
+      if(a==b){
+        System.out.println("O JOGO DUROU 24 HORA(S) E "+e+" MINUTO(S)");
+      }
+      else if(b>a){
+        System.out.println("O JOGO DUROU "+(b-a-1)+" HORA(S)"+" E "+e+" MINUTO(S)");
+      }
+      else if(a>b){
+        System.out.println("O JOGO DUROU "+((b+24)-a-1)+" HORA(S)"+" E "+e+" MINUTO(S)");
+      }
+    }
+    else{
+      if(c<d){
+        e=d-c;
+      }
+      else{
+        e=0;
+      }
+      if(a==b){
+        System.out.println("O JOGO DUROU 24 HORA(S) E "+e+" MINUTO(S)");
+      }
+      else if(b>a){
+        System.out.println("O JOGO DUROU "+(b-a)+" HORA(S)"+" E "+e+" MINUTO(S)");
+      }
+      else if(a>b){
+        System.out.println("O JOGO DUROU "+((b+24)-a)+" HORA(S)"+" E "+e+" MINUTO(S)");
+      }
+    }
+  }
+}
